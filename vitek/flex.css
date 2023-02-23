@@ -1,0 +1,45 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    background: #555;
+}
+
+div#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    width: 1680px;
+}
+
+header#main_header {
+    width: 100%;
+    height: 300px;
+    background: lavender;
+}
+
+intro {
+    width: 50%;
+    height: 50px;
+    background: red;
+}
+
+main {
+    width: 100%;
+    height: 300px;
+    background: blue;
+}
+
+section {
+    width: 45%;
+    height: 300px;
+    background: palegoldenrod;
+}
+
+footer {
+    width: 100%;
+    height: 3rem;
+    background: black;
+}

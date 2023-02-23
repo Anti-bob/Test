@@ -1,0 +1,104 @@
+body {
+    background: #333;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+div#container {
+    display: grid;
+    grid-template-areas:
+        'header header header'
+        'intro intro intro'
+        'content content content'
+        'boxy boxy boxy'
+        'footer footer footer'
+    ;
+    width: 1680px;
+    gap: 10px;
+}
+
+header#main_header {
+    grid-area: header;
+    height: 55px;
+    background: lavender;
+}
+nav#intro {
+    grid-area: intro;
+    height: 400px;
+    background: red;
+}
+
+main#main_content {
+    grid-area: content;
+    height: 250px;
+    width: 1200px;
+    margin: auto;
+    background: blue;
+}
+
+div#boxy {
+    display: flex;
+    gap: 15px;
+    margin-left: 17.8%;
+}
+div#boxy section {
+    width: 200px;
+    height: 300px;
+}
+
+section#first_box {
+    grid-area: box1;
+    height: 200px;
+    width: 100%;
+    background: palegoldenrod;
+}
+section#secondary_box {
+    grid-area: box2;
+    height: 200px;
+    width: 100%;
+    background: blueviolet
+}
+section#third_box {
+    grid-area: box3;
+    height: 200px;
+    background: orange;
+}
+section#fourth_box {
+    grid-area: box4;
+    height: 200px;
+    background: green;
+}
+section#fifth_box {
+    grid-area: box5;
+    height: 200px;
+    background: yellow;
+}
+section#sixth_box {
+    grid-area: box6;
+    height: 200px;
+    background: pink;
+}
+section#seventh_box {
+    grid-area: box7;
+    height: 200px;
+    background: brown;
+}
+section#eighth_box {
+    grid-area: box8;
+    height: 200px;
+    background: white;
+}
+section#nineth_box {
+    grid-area: box9;
+    height: 200px;
+    background: purple;
+}
+
+footer#main_footer {
+    grid-area: footer;
+    height: 350px;
+    width:100%;
+    background: black;
+}
