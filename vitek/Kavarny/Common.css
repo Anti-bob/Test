@@ -1,0 +1,35 @@
+/* Obrázek, který použiju jako pozadí u menu */ 
+.bg_img {
+background-image: ('https://picsum.photos/1200/500');
+min-width: 1200px;
+min-height: 500px;
+background-position: center;
+position: relative;
+}
+/* Položí menu na obrázek */
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+
+/* Menu */
+.nav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Menu links */
+  .nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
